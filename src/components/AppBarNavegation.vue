@@ -7,23 +7,28 @@
           active-class="blue--text text--lighten-1"
         >
           <v-list-item to="/">
-            <v-list-item-title>Home</v-list-item-title>
+            <v-list-item-title>Pagina Inicial</v-list-item-title>
           </v-list-item>
 
-          <v-list-item to="/About">
-            <v-list-item-title>About</v-list-item-title>
+          <v-list-item to="/Generations">
+            <v-list-item-title>Gerações</v-list-item-title>
           </v-list-item>
 
-          <v-list-item to="/Test">
-            <v-list-item-title>Pokemons</v-list-item-title>
+          <v-list-item to="/First">
+            <v-list-item-title>Primeira Geração</v-list-item-title>
           </v-list-item>
+
+          <v-list-item to="/Second">
+            <v-list-item-title>Segunda Geração</v-list-item-title>
+          </v-list-item>
+
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
 
     <v-app-bar color="blue lighten-1" dark max-height="60">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title>My site Vue</v-toolbar-title>
+      <v-toolbar-title>Pokemons</v-toolbar-title>
     </v-app-bar>
   </div>
 </template>
