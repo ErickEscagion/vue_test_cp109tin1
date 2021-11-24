@@ -1,17 +1,21 @@
 <h1>Project developed in VUE for the WEB discipline</h1>
-<h2>Home Page</h2>
+<h2>Home/Pokemons</h2>
 <div aligh = "center">
-<img width="400" alt="Home" src="src/assets/screeshots/home/home.png">
-<img width="400" alt="HomeBar" src="src/assets/screeshots/home/home_bar.png">
-<img width="265" alt="HomeMobile" src="src/assets/screeshots/home/home_mobile.png">
-<img width="265" alt="HomeMobile2" src="src/assets/screeshots/home/home_mobile2.png">
-<img width="265" alt="HomeMobile3" src="src/assets/screeshots/home/home_mobile3.png">
+<img width="400" alt="PokeBar" src="src/assets/screeshots/af2/home.png">
+<img width="400" alt="Poke" src="src/assets/screeshots/af2/home2.png">
 </div>
-<h2>Pokemon Page</h2>
+<h2>Generations</h2>
 <div aligh = "center">
-<img width="400" alt="PokeBar" src="src/assets/screeshots/pokemon/poke.png">
-<img width="400" alt="Poke" src="src/assets/screeshots/pokemon/poke2.png">
-<img width="265" alt="poke_mobile" src="src/assets/screeshots/pokemon/poke_mobile.png">
-<img width="265" alt="poke_mobile3" src="src/assets/screeshots/pokemon/poke_mobile3.png">
-<img width="265" alt="poke_mobile2" src="src/assets/screeshots/pokemon/poke_mobile2.png">
+<img width="400" alt="PokeBar" src="src/assets/screeshots/af2/about.png">
+<img width="400" alt="Poke" src="src/assets/screeshots/af2/about2.png">
+</div>
+<h2>First Generation</h2>
+<div aligh = "center">
+<img width="400" alt="PokeBar" src="src/assets/screeshots/af2/fg.png">
+<img width="400" alt="Poke" src="src/assets/screeshots/af2/pg2.png">
+</div>
+<h2>Second Generation</h2>
+<div aligh = "center">
+<img width="400" alt="PokeBar" src="src/assets/screeshots/af2/sg.png">
+<img width="400" alt="Poke" src="src/assets/screeshots/af2/sg2.png">
 </div>
