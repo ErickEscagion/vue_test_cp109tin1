@@ -29,6 +29,12 @@
     <v-app-bar color="blue lighten-1" dark max-height="60">
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title>Pokemons</v-toolbar-title>
+
+      <v-spacer></v-spacer>
+      <v-tab to="/">Pagina Inicial</v-tab>
+      <v-tab to="/Generations">Gerações</v-tab>
+      <v-tab to="/First">Primeira Geração</v-tab>
+      <v-tab to="/Second">Segunda Geração</v-tab>
     </v-app-bar>
   </div>
 </template>
