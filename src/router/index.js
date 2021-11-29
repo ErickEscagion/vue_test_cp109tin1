@@ -26,6 +26,12 @@ const routes = [{
         name: 'Second',
         component: () =>
             import ('../views/Second.vue')
+    },
+    {
+        path: '/AllPokemons',
+        name: 'AllPokemons',
+        component: () =>
+            import ('../views/AllPokemons.vue')
     }
 ]
 

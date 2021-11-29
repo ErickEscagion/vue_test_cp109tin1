@@ -1,10 +1,13 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import axios from 'axios'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
     state: {
+        pokemons: [],
+        titleAllPokemons: "Todos Pokemons",
         pokeCardsFirst: {
             title: ["Pikachu", "Bulbasaur", "Charmander", "Squirtle", "Articuno", "Zaptos", "Moltres", "Mewtwo"],
             type: ["Eletrico", "Grama", "Fogo", "Agua", "Gelo", "Eletrico", "Fogo", "Psiquico"],
@@ -45,7 +48,25 @@ export default new Vuex.Store({
         }
 
     },
-    mutations: {},
-    actions: {},
-    getters: {}
+    mutations: {
+        SET_POKEMONS(state, payload) {
+            state.pokemons = payload
+        }
+    },
+    actions: {
+        fetchPokemons() {
+            axios.get("https://pokeapi.co/api/v2/pokemon?limit=1118")
+                .then((response) => {
+                    const payload = response.data.results
+                    this.commit('SET_POKEMONS', payload)
+                })
+                .catch((error) => console.log(error));
+        }
+
+    },
+    getters: {
+        bitTitle(state) {
+            return state.titleAllPokemons.toUpperCase()
+        }
+    }
 })

@@ -22,6 +22,10 @@
             <v-list-item-title>Segunda Geração</v-list-item-title>
           </v-list-item>
 
+          <v-list-item to="/AllPokemons">
+            <v-list-item-title>Todos Pokemons</v-list-item-title>
+          </v-list-item>
+
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
@@ -35,6 +39,7 @@
       <v-tab to="/Generations">Gerações</v-tab>
       <v-tab to="/First">Primeira Geração</v-tab>
       <v-tab to="/Second">Segunda Geração</v-tab>
+      <v-tab to="/AllPokemons">Todos Pokemons</v-tab>
     </v-app-bar>
   </div>
 </template>
